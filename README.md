@@ -1,1 +1,2 @@
 # odin-landing
+This repository is a project completed as part of The Odin Project curriculum. The purpose of this assignment is to apply foundations of HTML and CSS in creating a webpage based on only images of the completed website. The goal of this project is to gain a proficiency in HTML structuring and CSS styling. 
