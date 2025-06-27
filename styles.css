@@ -58,6 +58,36 @@ button{
     flex:1;
     justify-content: space-between;
 }
-p{
+p, .text{
     font-size: 18px;
+}
+.information{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 164px;
+}
+.image-text{
+    display: flex;
+    justify-content: space-around;
+}
+.pair{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    padding-top: 10px;
+    width: 0;
+    min-width:100%;
+    text-align: center;
+}
+.blue-round{
+    border: 4px solid #3882f6;
+    border-radius: 8px;
 }
