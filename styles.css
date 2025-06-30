@@ -48,8 +48,10 @@ button{
     color: #ffffff;
     padding: 10px;
     width: 124px;
+    height: 48px;
     font-weight: 600;
     border-radius: 8px;
+    border-color: #ffffff;
 }
 .w-button{
     display: flex;
@@ -96,7 +98,9 @@ p, .text{
 .third-section{
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 64px 496px 48px;
+    padding: 64px 456px;
+    display:flex;
+    flex-direction: column;
 }
 .quote{
     font-size: 36px;
@@ -107,5 +111,30 @@ p, .text{
     font-size: 24px;
     font-weight: 800;
     text-align: right;
-    margin: 24px auto;
+    margin-top: 10px;
+}
+.call-to-action{
+    background-color: #3882f6;
+    margin: 64px 416px;
+    border-radius: 6px;
+    padding: 18px 56px;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta{
+    margin: 10px;
+}
+#top{
+    font-size: 24px;
+    font-weight: 800;
+}
+.footer{
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
